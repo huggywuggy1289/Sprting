@@ -30,3 +30,8 @@ public class MyfirststudyController {
         return "myfirststudy"; // templates/myfirststudy.html 파일을 가리킴
     }
 }
+// ./gradlew build -x test
+// docker build -t my:25.0.3 . >> 이부분에서 에러떳음.
+// docker info
+// 다시  docker build -t my:25.0.3 .
+
